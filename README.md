@@ -8,6 +8,13 @@ Terrfaform Codes for deploying the above sample app.
 
 ```
 $ terraform init
+
+$ cp terraform.tfvars.example terraform.tfvars
+
+db_name = "app_production"
+db_username = "posgtres"
+db_password = "xxxxxxxxxxx"
+rails_secret_key_base = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..."
 ```
 
 ## Push Docker image to ECR
