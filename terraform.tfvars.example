@@ -1,0 +1,4 @@
+db_name = ""
+db_username = ""
+db_password = ""
+rails_secret_key_base = ""
